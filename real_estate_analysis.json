@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-16T10:08:38.296266",
+  "total_properties": 4,
+  "analysis_results": [
+    {
+      "property_id": "PROP003",
+      "address": "789 Pine Rd, University Area",
+      "noi": 36000,
+      "cap_rate": 10.285714285714285,
+      "rank": 1,
+      "score": 95,
+      "recommendation": "buy",
+      "risk_level": "low"
+    },
+    {
+      "property_id": "PROP002",
+      "address": "456 Oak Ave, Suburbs",
+      "noi": 70000,
+      "cap_rate": 9.333333333333334,
+      "rank": 2,
+      "score": 85,
+      "recommendation": "buy",
+      "risk_level": "low"
+    },
+    {
+      "property_id": "PROP001",
+      "address": "123 Main St, Downtown",
+      "noi": 45000,
+      "cap_rate": 9.0,
+      "rank": 3,
+      "score": 90,
+      "recommendation": "buy",
+      "risk_level": "low"
+    },
+    {
+      "property_id": "PROP004",
+      "address": "321 Elm St, Business District",
+      "noi": 108000,
+      "cap_rate": 9.0,
+      "rank": 4,
+      "score": 100,
+      "recommendation": "buy",
+      "risk_level": "low"
+    }
+  ],
+  "summary": {
+    "best_cap_rate": 10.285714285714285,
+    "average_cap_rate": 9.404761904761905,
+    "total_noi": 259000,
+    "top_recommendation": "PROP003",
+    "risk_distribution": {
+      "low": 4
+    },
+    "total_investment": 2800000,
+    "average_score": 92.5
+  }
+}

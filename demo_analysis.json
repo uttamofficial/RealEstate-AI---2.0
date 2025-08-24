@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-08-15T22:40:59.972682",
+  "system_info": {
+    "name": "Real Estate AI Investment System",
+    "version": "1.0.0",
+    "analysis_date": "2025-08-15",
+    "total_properties": 4
+  },
+  "analysis_results": [
+    {
+      "property_id": "PROP003",
+      "address": "789 Pine Rd, University Area",
+      "property_type": "residential",
+      "purchase_price": 350000,
+      "annual_rent": 48000,
+      "operating_expenses": 12000,
+      "square_footage": 1800,
+      "year_built": 1988,
+      "noi": 36000,
+      "cap_rate": 10.285714285714285,
+      "cash_on_cash_return": 51.42857142857142,
+      "price_per_sqft": 194.44444444444446,
+      "score": 90.0,
+      "recommendation": "Strong buy - Excellent cap rate",
+      "risk_level": "low",
+      "rank": 1
+    },
+    {
+      "property_id": "PROP002",
+      "address": "456 Oak Ave, Suburbs",
+      "property_type": "residential",
+      "purchase_price": 750000,
+      "annual_rent": 90000,
+      "operating_expenses": 20000,
+      "square_footage": 2800,
+      "year_built": 2005,
+      "noi": 70000,
+      "cap_rate": 9.333333333333334,
+      "cash_on_cash_return": 46.666666666666664,
+      "price_per_sqft": 267.85714285714283,
+      "score": 90.0,
+      "recommendation": "Strong buy - Excellent cap rate",
+      "risk_level": "low",
+      "rank": 2
+    },
+    {
+      "property_id": "PROP001",
+      "address": "123 Main St, Downtown",
+      "property_type": "residential",
+      "purchase_price": 500000,
+      "annual_rent": 60000,
+      "operating_expenses": 15000,
+      "square_footage": 2000,
+      "year_built": 1995,
+      "noi": 45000,
+      "cap_rate": 9.0,
+      "cash_on_cash_return": 45.0,
+      "price_per_sqft": 250.0,
+      "score": 90.0,
+      "recommendation": "Strong buy - Excellent cap rate",
+      "risk_level": "low",
+      "rank": 3
+    },
+    {
+      "property_id": "PROP004",
+      "address": "321 Elm St, Business District",
+      "property_type": "commercial",
+      "purchase_price": 1200000,
+      "annual_rent": 144000,
+      "operating_expenses": 36000,
+      "square_footage": 5000,
+      "year_built": 2010,
+      "noi": 108000,
+      "cap_rate": 9.0,
+      "cash_on_cash_return": 45.0,
+      "price_per_sqft": 240.0,
+      "score": 90.0,
+      "recommendation": "Strong buy - Excellent cap rate",
+      "risk_level": "low",
+      "rank": 4
+    }
+  ],
+  "portfolio_summary": {
+    "total_investment": 2800000,
+    "total_noi": 259000,
+    "average_cap_rate": 9.404761904761905,
+    "average_score": 90.0,
+    "best_property": "PROP003",
+    "highest_score": "PROP003"
+  },
+  "risk_analysis": {
+    "low_risk": 4,
+    "medium_risk": 0,
+    "high_risk": 0
+  }
+}

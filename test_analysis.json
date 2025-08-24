@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-08-15T22:32:11.267475",
+  "total_properties": 2,
+  "analysis_results": [
+    {
+      "property_id": "PROP002",
+      "address": "456 Oak Ave, Suburbs",
+      "noi": 70000,
+      "cap_rate": 9.333333333333334,
+      "rank": 1,
+      "score": 0.0,
+      "recommendation": ""
+    },
+    {
+      "property_id": "PROP001",
+      "address": "123 Main St, Downtown",
+      "noi": 45000,
+      "cap_rate": 9.0,
+      "rank": 2,
+      "score": 0.0,
+      "recommendation": ""
+    }
+  ],
+  "summary": {
+    "best_cap_rate": 9.333333333333334,
+    "average_cap_rate": 9.166666666666668,
+    "total_noi": 115000
+  }
+}
