@@ -1,6 +1,12 @@
-import { clerkMiddleware } from '@clerk/nextjs/server';
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-export default clerkMiddleware();
+// Simple middleware for Firebase authentication
+export function middleware(request: NextRequest) {
+  // For now, just pass through all requests
+  // You can add Firebase authentication checks here if needed
+  return NextResponse.next();
+}
 
 export const config = {
   matcher: [

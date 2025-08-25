@@ -7,12 +7,12 @@ RealEstate AI is a comprehensive platform that leverages artificial intelligence
 ![RealEstate AI](https://img.shields.io/badge/Next.js-14.2.31-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Clerk](https://img.shields.io/badge/Clerk-Authentication-6C47FF?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-FF6B35?style=for-the-badge)
 
 ## ✨ Features
 
 ### 🔐 **Authentication & Security**
-- **Clerk Integration**: Secure user authentication and management
+- **Firebase Integration**: Secure user authentication and data management
 - **Protected Routes**: Navigation and features only visible to authenticated users
 - **User Profiles**: Personalized dashboard and settings
 
@@ -42,7 +42,7 @@ RealEstate AI is a comprehensive platform that leverages artificial intelligence
 
 - Node.js 18+ 
 - npm or yarn
-- Clerk account for authentication
+- Firebase account for authentication
 - Google Maps API key (for map features)
 
 ### Installation
@@ -63,9 +63,10 @@ RealEstate AI is a comprehensive platform that leverages artificial intelligence
 3. **Environment Setup**
    Create a `.env.local` file in the root directory:
    ```env
-   # Clerk Authentication
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-   CLERK_SECRET_KEY=your_clerk_secret_key
+   # Firebase Authentication
+   FIREBASE_API_KEY=your_firebase_api_key_here
+   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain_here
+   FIREBASE_PROJECT_ID=your_firebase_project_id_here
    
    # Google Maps API
    NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
